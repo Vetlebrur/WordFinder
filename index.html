@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatles Word Finder</title> 
+    <link rel="stylesheet" href="css/BEATLES_WORD_FINDER.css">
+</head>
+<body>
+    <div id="tittel"><h1>BeaTles Word Finder</h1></div>
+    <section id="wrapper">
+        <div id="sok">
+            <label for="søk" id="sokeBarTittel"><h1 >Søk etter et ord i The Beatles sitt repertoar.</h1></label> 
+            <input type="text" name="søk" id="sokeBar" placeholder="Søk opp 'guitar'">
+        </div>
+        <p>Ordet <b><span id="ordetSomBleSagt">_</span></b> er blitt sagt <b><span id="antallSagninger">0</span></b> ganger, i <b><span id="antallSanger">0</span></b> ulike sanger.</p>
+        <ul id="listeAvSanger">
+        </ul>
+    </section>
+    <script src="src/SONGS_BEATLES.js"></script>
+    <script src="src/WORD_FINDER.js"></script>
+</body>
+</html>

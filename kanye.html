@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanye Word Finder</title> 
+    <link rel="stylesheet" href="css/KANYE_WORD_FINDER.css">
+</head>
+<body>
+    <div id="tittel"><h1>Kanye Word Finder</h1></div>
+    <section id="wrapper">
+        <div id="sok">
+            <label for="søk" id="sokeBarTittel"><h1>Hva har kanye sagt?</h1></label> 
+            <input type="text" name="søk" id="sokeBar" placeholder="Søk opp 'paris'">
+        </div>
+        <p>Ordet <b><span id="ordetSomBleSagt">_</span></b> er blitt sagt <b><span id="antallSagninger">0</span></b> ganger, i <b><span id="antallSanger">0</span></b> ulike sanger.</p>
+        <ul id="listeAvSanger">
+        </ul>
+    </section>
+    <script src="src/SONGS_KANYE.js"></script>
+    <script src="src/WORD_FINDER.js"></script>
+</body>
+</html>
